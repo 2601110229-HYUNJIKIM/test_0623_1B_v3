@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HJ의 미니홈피</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#9fc8e8;
+    font-family:Dotum,sans-serif;
+}
+
+.wrapper{
+    width:1200px;
+    height:750px;
+    margin:30px auto;
+    background:#b8d8ef;
+    border-radius:20px;
+    padding:20px;
+}
+
+.frame{
+    height:100%;
+    background:#f5f9fc;
+    border:2px solid #5f8db6;
+    border-radius:15px;
+    padding:15px;
+}
+
+.urlbar{
+    background:white;
+    border:1px solid #9db6ca;
+    padding:8px 15px;
+    border-radius:10px;
+    color:#777;
+    margin-bottom:15px;
+}
+
+.layout{
+    display:flex;
+    gap:15px;
+    height:620px;
+}
+
+.profile{
+    width:280px;
+    background:white;
+    border-radius:15px;
+    border:2px solid #b4d0e6;
+    padding:15px;
+}
+
+.today{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.today span{
+    color:red;
+    font-weight:bold;
+}
+
+.profile-img{
+    width:100%;
+    height:250px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.nick{
+    text-align:center;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.status{
+    background:#fff9d8;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.friend{
+    background:#f1f8ff;
+    padding:10px;
+    border-radius:10px;
+}
+
+.friend ul{
+    padding-left:15px;
+}
+
+.content{
+    flex:1;
+    background:white;
+    border-radius:15px;
+    border:2px solid #b4d0e6;
+    display:flex;
+}
+
+.menu{
+    width:110px;
+    padding-top:50px;
+}
+
+.menu button{
+    width:100%;
+    padding:12px;
+    margin-bottom:8px;
+    border:none;
+    background:#6ea3cf;
+    color:white;
+    border-radius:10px 0 0 10px;
+    cursor:pointer;
+}
+
+.main{
+    flex:1;
+    padding:25px;
+}
+
+.title{
+    color:#4f7aa6;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.diary{
+    border:1px solid #d9e5ee;
+    padding:20px;
+    border-radius:10px;
+}
+
+.diary-title{
+    color:#4f7aa6;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.miniroom{
+    margin-top:20px;
+    height:250px;
+    background:#fff6e8;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+}
+
+.music{
+    margin-top:15px;
+    background:white;
+    border-radius:10px;
+    padding:10px 15px;
+    border:1px solid #b4d0e6;
+}
+
+.music marquee{
+    color:#ff5d9f;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="frame">
+
+<div class="urlbar">
+http://www.cyworld.com/hj
+</div>
+
+<div class="layout">
+
+<div class="profile">
+
+<div class="today">
+TODAY <span>15</span> |
+TOTAL 12,345
+</div>
+
+<div class="profile-img">
+<img src="https://picsum.photos/400/400">
+</div>
+
+<div class="nick">
+♥ HJ ♥
+</div>
+
+<div class="status">
+😊 상태메시지<br>
+오늘도 열심히 살기
+</div>
+
+<div class="friend">
+<b>일촌목록</b>
+<ul>
+<li>민수</li>
+<li>지은</li>
+<li>수빈</li>
+<li>태현</li>
+</ul>
+</div>
+
+</div>
+
+<div class="content">
+
+<div class="menu">
+<button>홈</button>
+<button>다이어리</button>
+<button>사진첩</button>
+<button>방명록</button>
+<button>쥬크박스</button>
+</div>
+
+<div class="main">
+
+<div class="title">
+HJ님의 미니홈피입니다.
+</div>
+
+<div class="diary">
+
+<div class="diary-title">
+📅 2026.06.22
+</div>
+
+<p>
+오늘도 즐거운 하루 😊<br>
+오랜만에 미니홈피 감성으로 디자인 연습 중!
+</p>
+
+</div>
+
+<div class="miniroom">
+🧸 🪑 🌷
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="music">
+<marquee>
+♪ Y2K 감성 BGM 재생중...
+</marquee>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
